@@ -1,3 +1,4 @@
+baseurl: /adonisthedemigod
 safe: true
 lsi: false
 pygments: true
