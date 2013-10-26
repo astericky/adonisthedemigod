@@ -1,6 +1,7 @@
-@import 'partials/normalize';
-
-
-body {
-	background: yellow;
-}
+@import "compass";
+@import "partials/_settings";
+@import "partials/_placeholders";
+@import "partials/_mixins";
+@import "partials/_normalize";
+@import "partials/_layout";
+@import "modules/site-header/header";
