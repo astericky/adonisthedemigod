@@ -1,0 +1,11 @@
+@import "modules/site-header/_heading";
+@import "modules/site-header/_navigation";
+
+.site-header {
+	@extend %clearfix;
+	// position: fixed;
+	// top: 0;
+	// width: 100%;
+	padding: 0 1em;
+	background: hsla(180, 75%, 38%, 1);
+}
