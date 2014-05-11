@@ -1,3 +1,9 @@
-//@import "normalize";
+// @import "normalize";
 
 //@include nomalize;
+
+@import "settings";
+@import "placeholders";
+@import "mixins";
+@import "normalize";
+@import "layout";

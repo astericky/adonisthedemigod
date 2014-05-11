@@ -4,6 +4,7 @@
 # SASS cache #
 ##############
 _sass/.sass-cache/
+_sass/.sass-cache/*
 
 # OS generated files #
 ######################
