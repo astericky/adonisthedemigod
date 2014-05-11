@@ -3,8 +3,7 @@
 
 # SASS cache #
 ##############
-_sass/.sass-cache/
-_sass/.sass-cache/*
+*.sass-cache*
 
 # OS generated files #
 ######################
