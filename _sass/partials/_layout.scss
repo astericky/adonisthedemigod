@@ -1,5 +1,22 @@
 .container {
-	@extend %clearfix;
+	@extend %group;
+    box-sizing: border-box;
 	width: $max-width;
 	margin: 0 auto;
+}
+
+.content {
+    box-sizing: border-box;
+    width: $content-width;
+    padding: $gutter-width;
+    float: left;
+}
+
+.sidebar {
+    box-sizing: border-box;
+    width: $sidebar-width;
+    height: 500px;
+    padding: $gutter-width;
+    float: left;
+    background: #ccc;
 }

@@ -1,0 +1,23 @@
+@import "modules/header/_navigation";
+
+.header {
+	@extend %group;
+	// position: fixed;
+	// top: 0;
+	// width: 100%;
+  box-sizing: border-box;
+	padding: 0 $gutter-width;
+	background: hsla(180, 75%, 38%, 1);
+
+  .container {
+    padding: 0 $gutter-width;
+  }
+}
+
+.heading {
+  width: auto;
+  margin: 0;
+  float: left;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: hsl(0, 100, 100);
+}
