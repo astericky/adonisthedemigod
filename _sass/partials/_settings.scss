@@ -1,7 +1,10 @@
 // Grid settings
 
-$max-width: 1024px;
-$gutter-width: 16px;
-$columns: 16;
-$margin-width: 16px;
+$max-width: 1280px;
+$gutter-width: 20px;
+$columns: 32;
+$column-width: $max-width / columns;
 
+
+$content-width: 940px;
+$sidebar-width: $max-width - $content-width;

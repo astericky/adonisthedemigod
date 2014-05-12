@@ -3,7 +3,7 @@
 
 # SASS cache #
 ##############
-_sass/.sass-cache/
+*.sass-cache*
 
 # OS generated files #
 ######################
@@ -14,3 +14,4 @@ _sass/.sass-cache/
 .Trashes
 ehthumbs.db
 Thumbs.db
+.editorconfig
