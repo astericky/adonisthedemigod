@@ -1,22 +1,29 @@
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 .container {
-	@extend %group;
-    box-sizing: border-box;
-	width: $max-width;
+  display: flex;
+  box-sizing: border-box;
+	width: 100%;
 	margin: 0 auto;
 }
 
 .content {
-    box-sizing: border-box;
-    width: $content-width;
-    padding: $gutter-width;
-    float: left;
+  display: flex;
+  flex: 1;
+  box-sizing: border-box;
+  height: 100%;
+  padding: $gutter-width;
 }
 
 .sidebar {
-    box-sizing: border-box;
-    width: $sidebar-width;
-    height: 500px;
-    padding: $gutter-width;
-    float: left;
-    background: #ccc;
+  display: flex;
+  box-sizing: border-box;
+  width: $sidebar-width;
+  height: 100%;
+  padding: $gutter-width;
+  background: #ccc;
 }
