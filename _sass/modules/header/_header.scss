@@ -2,10 +2,6 @@
 
 .header {
 	@extend %group;
-	// position: fixed;
-	// top: 0;
-	// width: 100%;
-  box-sizing: border-box;
 	padding: 0 $gutter-width;
 	background: hsla(180, 75%, 38%, 1);
 }

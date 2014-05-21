@@ -8,10 +8,12 @@
 	@extend %group;
 	padding: 0;
 	margin: 0;
+  
 	li {
 		list-style: none;
 		float: left;
 	}
+
 	li + li {
 		margin-left: 1em;
 	}
