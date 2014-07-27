@@ -1,4 +1,4 @@
-source :rubygems
+source "https://rubygems.org"
 
 gem "singularitygs", "~> 1.0.8"
 gem "singularity-extras", "~> 0.0.3"

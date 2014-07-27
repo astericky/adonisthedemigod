@@ -2,3 +2,12 @@
   padding: $gutter-width;
   background: hsl(0, 0%, 38%);
 }
+
+.social-media {
+  @extend %group;
+}
+
+.social-media li {
+  margin-right: 10px;
+  float: left;
+}

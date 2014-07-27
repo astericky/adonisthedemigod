@@ -2,13 +2,18 @@
 
 .header {
 	@extend %group;
+    height: 48px;
 	padding: 0 $gutter-width;
 	background: hsla(180, 75%, 38%, 1);
+
+    @include breakpoint ($medium-width) {
+        padding: 0 $large-gutter-width;
+    }
 }
 
 .heading {
   width: auto;
-  margin: 0;
+  margin: 2px 0;
   float: left;
   font-family: 'Oleo Script Swash Caps', cursive;
   color: hsl(0, 100, 100);
