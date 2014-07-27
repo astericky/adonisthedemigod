@@ -15,7 +15,7 @@
         <!-- <link rel="stylesheet" href="css/normalize.css"> -->
         <link href='http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/css/screen.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -25,10 +25,15 @@
         <!-- Add your site or application content here -->
 
 
-        <header class="header">
+    <header class="header">
 	<div class="container">
 		<h1 class="heading">AdonisTheDemiGod</h1>
 		<nav class="navigation">
+    <div class="hamburger-navigation-button">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
 	<ul class="navigation-list">
 		<li><a href="/">Home</a></li>
 		<li><a href="/experiments">Experiments</a></li>
@@ -40,39 +45,61 @@
 </header>
 
 
-        <main class="main container">
-            <section class="content">
-              
-                <article class="article">
-                    <h3 class="article-heading"><a href="/2014/05/12/practice-post.html">Lorem Ipsum Dolor Sit Amet</a></h3>
-                    <p class="article-excerpt"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Nulla ipsum quam, auctor ut hendrerit quis, tincidunt eu metus. Quisque ipsum tellus, semper a tempus quis, interdum vel magna. Cras a nisl diam, in accumsan augue. Pellentesque varius nibh eu diam tempor rhoncus.</p>
+    <main class="main container">
+
+        <section class="content">
+
+          
+            <article class="article">
+                <h3 class="article-heading"><a href="/2014/05/12/practice-post.html">Lorem Ipsum Dolor Sit Amet</a></h3>
+                <p class="article-excerpt"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Nulla ipsum quam, auctor ut hendrerit quis, tincidunt eu metus. Quisque ipsum tellus, semper a tempus quis, interdum vel magna. Cras a nisl diam, in accumsan augue. Pellentesque varius nibh eu diam tempor rhoncus.</p>
 
 </p>
-                </article>
-              
-            </section>
-            <aside class="sidebar">
+            </article>
+          
+
+        </section>
+
+        <aside class="sidebar">
 </aside>
 
-        </main>
 
-        <footer class="footer">
+    </main>
+
+    <footer class="footer">
 
     <p class="copyright">Created By Chris</p>
 
     <ul class="social-media">
-        <li class="linkedin"><a href=""></a></li>
-        <li class="twitter"><a href=""></a></li>
-        <li class="google"><a href=""></a></li>
+        <li class="linkedin"><a href="">linkedin</a></li>
+        <li class="twitter"><a href="">twitter</a></li>
+        <li class="google"><a href="">google</a></li>
     </ul>
 
 </footer>
 
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery-2.1.1.min.js"><\/script>')</script>
+<script type="text/javascript" src="http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js"></script>
 <script src="/js/plugins.js"></script>
 <script src="/js/main.js"></script>
+<script type="text/javascript">
+(function () {
+    var articleId = fyre.conv.load.makeArticleId(null);
+    fyre.conv.load({}, [{
+        el: 'livefyre-comments',
+        network: "livefyre.com",
+        siteId: "358763",
+        articleId: articleId,
+        signed: false,
+        collectionMeta: {
+            articleId: articleId,
+            url: fyre.conv.load.makeCollectionUrl(),
+        }
+    }], function() {});
+}());
+</script>
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
 <script>
