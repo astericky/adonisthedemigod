@@ -21,7 +21,6 @@ body {
 
 .content {
     box-sizing: border-box;
-    height: 100%;
     padding: $gutter-width;
 
     @include breakpoint($medium-width) {
@@ -31,9 +30,15 @@ body {
 
 .sidebar {
     box-sizing: border-box;
-    height: 100%;
     padding: $gutter-width;
     background: #ccc;
+
+    @include breakpoint($max-small-width) {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
 
     @include breakpoint($medium-width) {
         width: $sidebar-width;
