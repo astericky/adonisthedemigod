@@ -1,0 +1,43 @@
+
+
+.article {
+    margin-bottom: 24px;
+}
+
+.article-header {
+
+}
+
+.article-category,
+.article-date {
+    margin: 0;
+    font-size: $sm-font-size;
+    text-transform: uppercase;
+}
+
+.article-category {
+
+}
+
+.article-heading {
+    margin: 4px 0;
+    font-size: $lg-font-size;
+
+    a {
+        color: $highlight-text-color;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.article-date {
+
+}
+
+
+.post {
+    @extend .article;
+}

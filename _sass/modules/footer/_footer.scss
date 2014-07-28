@@ -1,7 +1,11 @@
 .footer {
     @extend %group;
-    padding: $gutter-width;
+    padding: $gutter-width 20px;
     background: hsl(0, 0%, 38%);
+
+    @include breakpoint($max-small-width) {
+        padding: $gutter-width;
+    }
 }
 
 .copyright {
