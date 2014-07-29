@@ -37,7 +37,7 @@ body {
     padding: $gutter-width;
     background: #ccc;
 
-    @include breakpoint($med-width) {
+    @include breakpoint($medium-width) {
         position: absolute;
         left: 0;
         bottom: 0;
