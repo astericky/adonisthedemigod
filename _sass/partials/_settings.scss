@@ -4,7 +4,7 @@ $large-width       : 1280px;
 $medium-width      : 768px;
 $small-width       : 480px;
 
-$max-small-width   : max-width ($medium-width - 1);
+$max-small-width   : $medium-width;
 
 $gutter-width      : 10px;
 $large-gutter-width: 20px;

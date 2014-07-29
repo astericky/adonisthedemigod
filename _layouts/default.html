@@ -5,8 +5,7 @@
     <main class="main container">
 
         <section class="content">
-
-          {% for post in site.posts limit: 10 %}
+        {% for post in site.posts limit: 10 %}
             <article class="article">
                 <header class="article-header">
                     <p class="article-category">[ {{ post.category-name }} ]</p>
@@ -18,8 +17,7 @@
                 </header>
                 <p class="article-excerpt">{{ post.excerpt }}</p>
             </article>
-          {% endfor %}
-
+        {% endfor %}
         </section>
 
         {% include sidebar.html %}
