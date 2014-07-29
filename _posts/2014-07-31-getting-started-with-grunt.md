@@ -21,3 +21,5 @@ By the end of this book the author had me convinced that Grunt is the tool my te
 Full disclosure: I was asked to do this review literally the day after I finished it. However, I've read this book and thoroughly enjoyed every minute of it.
 
 I'm stunned that such a potentially boring topic could make for an amazing book.
+
+[Check out: Getting Started with Grunt: The JavaScript Task Runner](http://bit.ly/1pvgcnH)
