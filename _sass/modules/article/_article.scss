@@ -9,19 +9,21 @@
 }
 
 .article-category,
-.article-date {
+.article-meta {
     margin: 0;
     font-size: $sm-font-size;
     text-transform: uppercase;
 }
 
 .article-category {
-
+    font-weight: bold;
+    color: #18aaaa;
 }
 
 .article-heading {
-    margin: 4px 0;
+    margin: 2px 0 4px;
     font-size: $lg-font-size;
+    color: $highlight-text-color;
 
     a {
         color: $highlight-text-color;
@@ -37,7 +39,16 @@
 
 }
 
+.review-rating {
+    .article-date + & {
+        padding-left: 16px;
+    }
+}
+
 
 .post {
-    @extend .article;
+
+    .article-heading {
+        font-size: $xl-font-size;
+    }
 }

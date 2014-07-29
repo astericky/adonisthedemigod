@@ -9,9 +9,12 @@
           {% for post in site.posts limit: 10 %}
             <article class="article">
                 <header class="article-header">
-                    <p class="article-category">{{ post.category-name }}</p>
+                    <p class="article-category">[ {{ post.category-name }} ]</p>
                     <h3 class="article-heading"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                    <p class="article-date">{{ post.date | date: "%d %b %Y" }}</p>
+                    <p class="article-meta">
+                        <span class="article-date">{{ post.date | date: "%d %b %Y" }}</span>
+                        <span class="review-rating">Rating: {{ post.rating }}</span>
+                    </p>
                 </header>
                 <p class="article-excerpt">{{ post.excerpt }}</p>
             </article>
