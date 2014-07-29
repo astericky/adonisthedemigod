@@ -11,6 +11,18 @@ $large-gutter-width: 20px;
 $columns           : 32;
 $column-width      : $large-width / columns;
 
-
 $content-width     : 940px;
 $sidebar-width     : $large-width - $content-width;
+
+// Colors
+
+$base-text-color     : #444;
+$highlight-text-color: hsl(34, 96%, 48%);
+
+
+// Font Sizes
+
+$base-font-size: 1em;   // 16px
+$sm-font-size  : .75em; // 12px
+$lg-font-size  : 1.5em; // 24px
+$xl-font-size  : 2em;   // 32px

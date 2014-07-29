@@ -1,0 +1,54 @@
+
+
+.article {
+    margin-bottom: 24px;
+}
+
+.article-header {
+
+}
+
+.article-category,
+.article-meta {
+    margin: 0;
+    font-size: $sm-font-size;
+    text-transform: uppercase;
+}
+
+.article-category {
+    font-weight: bold;
+    color: #18aaaa;
+}
+
+.article-heading {
+    margin: 2px 0 4px;
+    font-size: $lg-font-size;
+    color: $highlight-text-color;
+
+    a {
+        color: $highlight-text-color;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.article-date {
+
+}
+
+.review-rating {
+    .article-date + & {
+        padding-left: 16px;
+    }
+}
+
+
+.post {
+
+    .article-heading {
+        font-size: $xl-font-size;
+    }
+}

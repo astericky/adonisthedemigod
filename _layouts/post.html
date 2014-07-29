@@ -1,12 +1,22 @@
-{% include top.html %}
+{% include post-top.html %}
 
     {% include header.html %}
 
     <main class="main container">
 
         <section class="content">
-
-            {{ content }}
+            <aritcle class="article">
+                <header class="article-header">
+                    <p class="article-category">[ {{ page.category-name }} ]</p>
+                    <h1 class="article-heading">{{ page.title }}</h1>
+                    <p class="article-meta">
+                        <span class="article-date">{{ page.date | date: "%d %b %Y" }}</span>
+                        <span class="review-rating">Rating: {{ page.rating }}</span>
+                    </p>
+                </header>
+                {{ content }}
+                <p class="article-tags">{% for tag in page.tags %} {{ tag }} {% endfor %}</p>
+            </aritcle>
 
             <div id="livefyre-comments" class="livefyre-comments"></div>
 
