@@ -12,7 +12,7 @@ This book is among the best introductions to Grunt: The Javascript Task Runner a
 
 The author immediately starts us out with creating a simple Grunt task. He explains the benefits of using a task runner at all in the development process. We learn why Grunt is an excellent choice for task runner in real world use cases such as code minification, code linting and code deployments.
 
-Often times I find that beginner books are almost too beginner for the audience they are trying to target. This book really hits the sweetspot in terms of getting beginners set up quickly and easily without alienating more senior developers or going into the gory details of Grunt before developers have any real context or understand around the problem Grunt attempts to solve.
+Often times I find that beginner books are almost too beginner for the audience they are trying to target. This book really hits the sweetspot in terms of getting beginners set up quickly and easily without alienating more senior developers or going into the gory details of Grunt before developers have any real context or understanding around the problem Grunt attempts to solve.
 
 Next we are guided through a more thorough set up of Grunt and the NodeJS platform. We learn about basic configuration and directory structure. The author does not stop there though. He walks us through installing grunt packages and plug-ins as well as building our own custom Grunt tastsk.
 
