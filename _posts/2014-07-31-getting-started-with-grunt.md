@@ -16,7 +16,7 @@ Often times I find that beginner books are almost too beginner for the audience 
 
 Next we are guided through a more thorough set up of Grunt and the NodeJS platform. We learn about basic configuration and directory structure. The author does not stop there though. He walks us through installing grunt packages and plug-ins as well as building our own custom Grunt tastsk.
 
-By the end of this book the author had me convinced that Grunt is the tool my team can leaverage at work to get control of our unweildy code base and get some structure and consistency around our deployment process. One way I would improve this book is the last 15-20 pages on Development tools feels somewhat unnecessary for this book. Maybe they should be part of an Appendix of some sort but I wouldn't include it as a part of a chapter titled Advanced Grunt.
+By the end of this book the author had me convinced that Grunt is the tool my team can leaverage at work to get control of our unweildy code base and get some structure and consistency around our deployment process. One way I would improve this book is the last 15-20 pages on development tools feels somewhat unnecessary for this book. Maybe they should be part of an appendix of some sort but I wouldn't include it as a part of a chapter titled Advanced Grunt.
 
 Full disclosure: I was asked to do this review literally the day after I finished it. However, I've read this book and thoroughly enjoyed every minute of it.
 
