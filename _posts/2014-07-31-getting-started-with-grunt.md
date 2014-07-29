@@ -8,7 +8,7 @@ rating       : 4.75 / 5
 tags         : Web Development, Javascript, Nodejs Build Tools
 ---
 
-This book is among the best introductions to Grunt: The Javascript Task Runner and Nodejs platform I have seen to date. I was so pleased with this book that I recommended it to the other developers on my team immediately upon finishing htis book.
+This book is among the best introductions to Grunt: The Javascript Task Runner and Nodejs platform I have seen to date. I was so pleased with this book that I recommended it to the other developers on my team immediately upon finishing this book.
 
 The author immediately starts us out with creating a simple Grunt task. He explains the benefits of using a task runner at all in the development process. We learn why Grunt is an excellent choice for task runner in real world use cases such as code minification, code linting and code deployments.
 
