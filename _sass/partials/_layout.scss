@@ -16,7 +16,7 @@ body {
     min-height: 100%;
 
     @include breakpoint($medium-width) {
-        display: -webkit-box-flex;
+        display: -webkit-box;
         display: flex;
     }
 }
