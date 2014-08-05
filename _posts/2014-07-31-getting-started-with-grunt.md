@@ -1,6 +1,8 @@
 ---
 layout       : post
 title        : "Getting Started with Grunt: The JavaScript Task Runner"
+author       :
+release-date :
 date         : 2014-07-31
 category     : book-review
 category-name: Book Review
@@ -24,4 +26,4 @@ Full disclosure: I was asked to do this review literally the day after I finishe
 
 I'm stunned that such a potentially boring topic could make for an amazing book.
 
-[Check out Getting Started with Grunt: The JavaScript Task Runner](http://bit.ly/1pvgcnH)
+[Check out 'Getting Started with Grunt: The JavaScript Task Runner'](http://bit.ly/1pvgcnH)
