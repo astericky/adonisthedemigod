@@ -14,7 +14,7 @@ While there are many many posts on Javascript and Object-Oriented Javascript all
 
 I would probably say that this book really serves as somewhat of a foundation for what will come in the future as it relates to Javascript.
 
-Every chapter I felt like I was learning something I had not realized when working with Javascript before. Understanding primative types and reference types in Javascript is critical to understand how objects behave in Javascript. The author starts the book out by explaining the difference between the two before getting into the details of functions and objects. You will learn about proper methods of detecting properties, instantiating built in types, call and apply.
+Every chapter I felt like I was learning something I had not realized when working with Javascript before. Understanding primative types and reference types in Javascript is critical to understand how objects behave in Javascript and in other programming languages. The author starts the book out by explaining the difference between the two before getting into the details of functions and objects. You will learn about proper methods of detecting properties, instantiating built in types, call and apply.
 
 I really enjoyed the fact that our author goes throught the trouble of explaining to us exactly what is going on behind the scenes. This gives developers more control over the code and how they are writing their code. He goes and explains this and the bind method.
 

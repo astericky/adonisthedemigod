@@ -1,38 +1,38 @@
 
-
 .article {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
+  line-height: 1.5; // 24px
 }
 
 .article-header {
-
+  line-height: 1.25; // 20px;
 }
 
 .article-category,
 .article-meta {
-    margin: 0;
-    font-size: $sm-font-size;
-    text-transform: uppercase;
+  margin: 0;
+  font-size: $sm-font-size;
+  text-transform: uppercase;
 }
 
 .article-category {
-    font-weight: bold;
-    color: #18aaaa;
+  font-weight: bold;
+  color: #18aaaa;
 }
 
 .article-heading {
-    margin: 2px 0 4px;
-    font-size: $lg-font-size;
+  margin: 2px 0 4px;
+  font-size: $lg-font-size;
+  color: $highlight-text-color;
+
+  a {
     color: $highlight-text-color;
+    text-decoration: none;
+  }
 
-    a {
-        color: $highlight-text-color;
-        text-decoration: none;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
+  a:hover {
+    text-decoration: underline;
+  }
 }
 
 .article-date {
@@ -40,15 +40,14 @@
 }
 
 .review-rating {
-    .article-date + & {
-        padding-left: 16px;
-    }
+  .article-date + & {
+    padding-left: 16px;
+  }
 }
 
 
 .post {
-
-    .article-heading {
-        font-size: $xl-font-size;
-    }
+  .article-heading {
+    font-size: $xl-font-size;
+  }
 }
