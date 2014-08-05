@@ -20,7 +20,7 @@ I really enjoyed the fact that our author goes throught the trouble of explainin
 
 Nicholas explains ECMA Script 5's built in Object functions by sprinkling in examples rather than going all dictionary style on us as many developer books typically like to do. People read books so they actually understand what they are doing better than they would if they were reading straight up documentation dictionary style. Explanation through example also gives us a tiny preview of how we might solve problems right now.
 
-Chapter 5.... OH GAWD!... Chapter 5 and well really the whole book should be required reading for all incoming developers. I was hesitating on wether or not to give this book a 5 out of 5 stars. I went ahead and decided to give this book the full 5 because I don't have a recommendation as to how I might improve this book.
+Chapter 5.... OH GAWD!... Chapter 5 and well really the whole book should be required reading for developers. I was hesitating on wether or not to give this book a 5 out of 5 stars. I went ahead and decided to give this book the full 5 because I don't have a recommendation as to how I might improve this book.
 
 For all the praise Douglas Crockford's book 'Javascript: The Good Parts' gets, this book should be getting at least as much praise.
 
