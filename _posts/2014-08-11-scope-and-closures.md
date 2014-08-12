@@ -10,7 +10,7 @@ rating       : 3.75 / 5
 tags         : Web Development, Javascript
 ---
 
-While this book attempts to demystify javascript scope and closures for javascript developers, it makes the topic mildly less mysterious. After reading this book, I think the explanation of both topics feels unfinished. I may go and re-read this book again. Its like The Good Parts without the immediately good even if controversial ideas in it.
+While this book attempts to demystify javascript scope and closures for javascript developers, it makes the topic mildly less mysterious. After reading this book, I think the explanation of both topics feels unfinished. I may go and re-read this book again. It is like The Good Parts without the immediately good even if controversial ideas in it.
 
 The author rather than try to fit in a full discussion on scope and closures elects to put additional information into an appendix which takes the reader away from very relevant and related questions that would likely further the readers understanding of the subject matter without having to skip all over the place. Usually, I tend to think of an appendix as off topic, related and useful information rather than a way to artificially keep the chapters short.
 
