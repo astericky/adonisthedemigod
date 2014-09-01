@@ -10,7 +10,7 @@ rating       : 5 / 5
 tags         : Web Development, Javascript
 ---
 
-'this and Object prototypes' is the second book in the 'You Don\'t know Javascript' book series. I would argue that this book probably could've served as the first book becuase this book challenges developers to actually re-consider the need of and use of the classical design patterns and assessing the benefits and drawbacks of it. In other words is challenges developers to actually be engineers instead of just developers.
+'this and Object prototypes' is the second book in the 'You Don\'t know Javascript' book series. I would argue that this book probably could've served as the first book becuase this book challenges developers to actually re-consider the need of and use of the classical design patterns and assessing the benefits and drawbacks of it. In other words, it challenges developers to actually be engineers instead of just developers.
 
 It is my opinion that I and other developers have been lazy in that we just accept classical software design as the way software should be developed without really thinking about what that actually means and the benefits and drawbacks of classical design patterns. Rather than fully embracing the benefit of behavior based delegation-oriented design in Javascript, developers have typically shoe-horned in the classical design patterns into Javascript.
 
