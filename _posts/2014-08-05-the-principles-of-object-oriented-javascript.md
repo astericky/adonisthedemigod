@@ -10,7 +10,7 @@ rating       : 5 / 5
 tags         : Web Development, Javascript
 ---
 
-While there are many many posts on Javascript and Object-Oriented Javascript all over the internet, I have never found a book that felt as concise and as through as this book is. I think many developers even experienced Java developers looking to get a better understanding of Javascript can really use this book to take their Javascript to the next level.
+While there are many many posts on Javascript and Object-Oriented Javascript all over the internet, I have never found a book that felt as concise and as thorough as this book is. I think many developers even experienced Java developers looking to get a better understanding of Javascript can really use this book to take their Javascript to the next level.
 
 I would probably say that this book really serves as somewhat of a foundation for what will come in the future as it relates to Javascript.
 
