@@ -6,13 +6,11 @@
     }
 
     function eventHandlers() {
-        console.log('eventHandlers');
         $('.hamburger-navigation-button').on('click', toggleNavigation);
     }
 
     function toggleNavigation() {
-        console.log('toggleNavigation');
-        $('.navigation-list').toggleClass('show-navigation-list ');
+        $('.navigation-list').toggleClass('show-navigation-list');
     }
 
     init();
