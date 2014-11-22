@@ -18,6 +18,8 @@ Then we move on to actually getting npm, node, and gulp with the pizza-app examp
 
 This book was a very pleasurable and productive read to be quite frank. I can use this in my workflow immediately. 'Developing a Gulp Edge' and the Kyle Simpson 'You Don't Know Javascript' series made me appreciate development books and the authors of these books. They are more thorough than reading a random blog post on the subject many times. Developers are already working on their own projects and in many cases writing a book is a deviation from their other projects.
 
-The authors could probably improve this book by updating some of the examples in this book. In particular, I would update the cache busting with gulp part of the book. I have not yet been able to find anything to cache bust a js file. the examples they provided work with everything but Javascript files. I would've also liked to see some things on working with sprites as well.
+The authors could probably improve this book by updating some of the examples in this book. In particular, I would update the cache busting with gulp part of the book. I have not yet been able to find anything to cache bust a js file. The examples they provided with cache busting worked with everything but Javascript files. I would've also liked to see some thing about working with sprites as well.
+
+Lastly, we are walked through creating our own gulp plugin that does not actually do anything. It is good practice for those who intend to create a plugin.
 
 [Check out 'Developing A Gulp Edge'](http://shop.oreilly.com/product/9781939902146.do)
